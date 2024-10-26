@@ -130,12 +130,21 @@ img {
 
 @media screen and (max-width:768px){
     .container{
-        width: 90%;
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width:480px){
-    header{
-        
+    .container{
+        max-width: 100%;
+        margin: 0 auto;
     }
+
+    .row{
+        display: block;
+        }
+
+    .col{
+        max-width: 100%;
+        }
 }
